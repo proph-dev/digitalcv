@@ -12,15 +12,13 @@ section {
     @apply
     relative
     h-full
-    py-20
-    bg-red-500;
+    py-20;
     
     .container-page {
         @apply
         px-8
         max-w-[1280px]
         mx-auto
-        h-full
-        bg-blue-500;
+        h-full;
     }
 }
