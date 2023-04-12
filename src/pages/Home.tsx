@@ -1,7 +1,14 @@
+import { Section } from "../layouts/Section";
+import { Container } from "../layouts/Container";
+
 function Home() {
   return (
     <div>
-      <h1>Accueil</h1>
+      <Section>
+        <Container>
+          <h1>test</h1>
+        </Container>
+      </Section>
     </div>
   );
 }
