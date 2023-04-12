@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*** General style ***/
+* {
+    font-family: 'Poppins';
+}
+
+section {
+    @apply
+    relative
+    h-full
+    py-20;
+    
+    .container-page {
+        @apply
+        px-8
+        max-w-[1280px]
+        mx-auto
+        h-full;
+    }
+}
