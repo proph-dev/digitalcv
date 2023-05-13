@@ -1,0 +1,19 @@
+.mainNavigation {
+    @apply py-6 px-8 max-w-[1280px] mx-auto;
+
+    nav {
+        @apply flex justify-between;
+
+        span {
+            @apply font-semibold;
+        }
+
+        ul {
+            @apply flex;
+
+            li {
+                @apply mx-4;
+            }
+        }
+    }
+}

@@ -2,13 +2,13 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Loading component
-import { Loading } from '../components/utils/Loading';
+import { Loading } from '../../ui/components/utils/Loading';
 // Navbar layout
-import { Navbar } from '../layouts/navbar/Navbar';
+import { Navbar } from '../../ui/layouts/navbar/Navbar';
 
 // Import pages with lazy loading
-const Home = lazy(() => import('../pages/Home'));
-const NotFound = lazy(() => import('../pages/NotFound'));
+const Home = lazy(() => import('../../pages/Home'));
+const NotFound = lazy(() => import('../../pages/NotFound'));
 
 export const Router = () => {
     return (

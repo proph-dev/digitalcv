@@ -15,7 +15,7 @@ export const Navbar = () => {
                     <li>
                         <FontAwesomeIcon icon={ faBell } />
                     </li>
-                    <Tab url="/">Se connecter</Tab>
+                    <Tab url="/" className="btn">Se connecter</Tab>
                 </ul>
             </nav>
         </header>
