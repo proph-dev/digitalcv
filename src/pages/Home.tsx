@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div>
+    <div className="text-[var(--main-color)]">
       Accueil
     </div>
   );
